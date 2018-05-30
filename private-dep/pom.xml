@@ -1,0 +1,27 @@
+<project>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.snyk.example</groupId>
+  <artifactId>private-package</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+
+  <name>Is A Private Package</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+      <version>3.4.9</version>
+    </dependency>
+  </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>private place</name>
+      <url>http://localhost:8081/artifactory/libs-release</url>
+    </repository>
+  </distributionManagement>
+
+</project>

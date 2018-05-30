@@ -1,0 +1,2 @@
+- This pom should be deployed to your local Artifactory instance
+- It is not intended to be imported as a project (for now)
