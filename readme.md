@@ -1,0 +1,4 @@
+- the three folder are different versions of the same basic pom
+- these poms should be deployed to your local artifactory instance
+- the root pom depends on version 1.0.0 (private-dep-with-vulns)
+- the root pom does not explicitly specify the artifact repository that contains its dependency (forcing the "repositories" configuration to happen in the SAAS platform)
