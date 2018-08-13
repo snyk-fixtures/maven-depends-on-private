@@ -16,12 +16,4 @@
     </dependency>
   </dependencies>
 
-  <distributionManagement>
-    <repository>
-      <id>central</id>
-      <name>private place</name>
-      <url>http://localhost:8081/artifactory/libs-release-local</url>
-    </repository>
-  </distributionManagement>
-
 </project>
