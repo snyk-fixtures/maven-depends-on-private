@@ -1,0 +1,19 @@
+<project>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.snyk.internal</groupId>
+  <artifactId>internal-package</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+
+  <name>Is An Internal Package</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+      <version>3.4.9</version>
+    </dependency>
+  </dependencies>
+
+</project>
