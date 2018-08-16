@@ -15,6 +15,12 @@
       <version>1.0.0</version>
       <type>pom</type>
     </dependency>
+    <dependency>
+      <groupId>io.snyk.internal</groupId>
+      <artifactId>internal-package</artifactId>
+      <version>1.0.0</version>
+      <type>pom</type>
+    </dependency>
   </dependencies>
 
 </project>
